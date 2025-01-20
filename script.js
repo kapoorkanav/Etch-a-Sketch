@@ -19,7 +19,7 @@ function makeGrid(n){
         grids.appendChild(innerGrid);
     }
 }
-makeGrid(4);
+makeGrid(16);
 
 const btn=document.getElementById("btn");
 btn.addEventListener("click",()=>{
